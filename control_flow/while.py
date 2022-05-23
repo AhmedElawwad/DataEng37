@@ -1,11 +1,13 @@
-for number in range(1,101):
+def fizz_buzz():
+    for each_number in range(1, 101):
+        string = ""
+        if each_number % 3 == 0:
+            string = string + "Fizz"
+        if each_number % 5 == 0:
+            string = string + "Buzz"
+        if each_number % 5 != 0 and each_number % 3 != 0:
+            string = string + str(each_number)
+        print(string)
 
-for num in range(1, 21):
-    string = ""
-    if num % 3 == 0:
-        string = string + "Fizz"
-    if num % 5 == 0:
-        string = string + "Buzz"
-    if num % 5 != 0 and num % 3 != 0:
-        string = string + str(num)
-    print(string)
+fizz_buzz()
+
