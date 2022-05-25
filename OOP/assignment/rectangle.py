@@ -17,7 +17,7 @@ class Rectangle:
         self.width = 2.5
 
     def __repr__(self):
-        return f" Rectangle size is with length={self.height} and width={self.width} "
+        return f" Rectangle size is with height={self.height} and width={self.width} "
 
     def __str__(self):
         return f" Rectangle size{self.height}, {self.width}"
