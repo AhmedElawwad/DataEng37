@@ -1,11 +1,53 @@
-age = 12
+# age = 12
+#
+# has_ticket = True
+#
+# if has_ticket:
+#     if age >= 15:
+#         print("you can see this film")
+#     else:
+#         print("Come back when you are older")
+# else:
+#     print("You need a ticket - go buy one")
 
-has_ticket = True
 
-if has_ticket:
-    if age >= 15:
-        print("you can see this film")
-    else:
-        print("Come back when you are older")
+import random
+
+name = "Ed"
+question = "Is this a magic ball?"
+answer = ""
+
+random_number = random.randint(1, 9)
+
+if random_number == 1:
+  print("Yes - definitely.”")
+elif random_number == 2:
+  print("It is decidedly so")
+
+elif random_number == 3:
+  print("Without a doubt.")
+
+elif random_number == 4:
+  print("Reply hazy, try again.")
+
+elif random_number == 5:
+  print("Ask again later.")
+elif random_number == 6:
+  print("Better not tell you now.")
+elif random_number == 7:
+  print("My sources say no.")
+
+elif random_number == 8:
+  print("Outlook not so good.")
+elif random_number == 9:
+  print("Very doubtful.")
+
 else:
-    print("You need a ticker - go buy one")
+  answer ="Error"
+
+print(name, question)
+
+
+print(answer)
+
+
