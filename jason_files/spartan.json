@@ -1,0 +1,10 @@
+{
+  "name": "Ahmed",
+  "stream": "Data Engineering",
+  "number": 37,
+  "is_awake": true,
+  "language": {
+    "python": 8
+  }
+
+}

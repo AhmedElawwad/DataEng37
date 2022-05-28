@@ -1,0 +1,23 @@
+HTTP requst
+
+VERB - URL - Version
+
+Header - Key-value pairs
+Body - Text, JSON, XML
+
+
+
+HTTP Response
+
+Response code - version
+Header
+Body
+
+HTTP Verbs
+
+
+GET - Reading
+POST - Creating / Inserting - providing something to the server
+PUT - Updating / replacing -
+PATCH -  Modifying
+DELETE - Delete
