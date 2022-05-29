@@ -42,23 +42,21 @@
 #     print(age)
 
 
-
-
 #############
 
 # We have provided the list sales_data that shows the numbers of different
 # flavors of ice cream sold at three different locations: Scoopcademy, Gilberts Creamery, and Manny’s Scoop Shop.
 # We want to sum up the total number of scoops sold. Start by defining a variable scoops_sold and set it to zero.
+#
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
 
-# sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+scoops_sold = 0
 #
-# scoops_sold = 0
-#
-# for location in sales_data:
-#     print(location)
-#     for each_location in location:
-#         scoops_sold += each_location
-# print(scoops_sold)
+for location in sales_data:
+    print(location)
+    for each_location in location:
+        scoops_sold += each_location
+print(scoops_sold)
 
 ##############
 
@@ -86,4 +84,18 @@
 # can_ride_coaster = [height for height in heights if height > 161]
 #
 # print(can_ride_coaster)
+
+###############################
+
+
+# single_digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# squares = []
+#
+# for i in single_digits:
+#     squares.append(i ** 2)
+#     print(squares)
+#
+# cubes = [i ** 3 for i in single_digits]
+# print(cubes)
+
 
