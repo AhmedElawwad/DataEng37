@@ -7,7 +7,11 @@ class Car:
         self._speed = 0
 
     def accelerate(self, speed_add):
-        self._speed = min(self._speed + speed_add, self._top_speed)
+        # if self._speed + speed_add > self._top_speed:
+        #     self._speed = self._top_speed
+        # else:
+        #     self._speed += speed_add
+        self._speed = min(self._speed + speed_add, self._top_speed) # whatever is smaller
 
     def brake(self, reduce_speed):
         self._speed = max(self._speed - reduce_speed, 0)
