@@ -7,7 +7,9 @@ class Bird:
         self._age = 0
 
     def reproduce(self):
-        pass
+        if self._age< 2:
+            return "Too young"
+        return "Egg"
 
     def age_up(self, year=1):
         self._age += year
@@ -18,7 +20,7 @@ class Bird:
 class Penguin(Bird):
 
     def __init__(self, subspecies, colour= ("Black", "white")):
-        super().__init__("Penguine", colour, False)
+        super().__init__("Penguine", colour, can_fly=False)
 
     def hunt_for_fish(self):
         print("Splash")
